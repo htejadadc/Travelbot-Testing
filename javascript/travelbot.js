@@ -8,11 +8,11 @@ $(document).ready(function() {
   });
 });
 	
-/*	
+
 var weatherKey = "eb190ccc88c7b1f8"
 var seached = ""	
 var queryURL = "http://api.wunderground.com/api/" + weatherKey + "/geolookup/conditions/q/IA/" + serched + ".json" ;
-	*/
+
 	
 	
 	
