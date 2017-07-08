@@ -303,9 +303,32 @@ footer {
 }
 #search {
 }
+#chat {
+}
+#messagePost {
+	font-family: source-sans-pro;
+	height: 180px;
+	width: 400px;
+	max-width: 100%;
+	padding: 10px;
+	background-color: #FFFFFF;
+	overflow-y: scroll;
+	opacity: 0.7;
+	text-align: left;
+	text-shadow: -1px -1px 24px #759FB4;
+	font-weight: bold;
+	font-size: 18px;
+	margin: 5px auto;
+}
+
+input {
+	font-family: source-sans-pro;
+	font-weight: bold;
+}
 
 /* Mobile */
 @media (max-width: 320px) {
+
 .logo {
 	width: 100%;
 	text-align: center;
@@ -313,6 +336,8 @@ footer {
 	margin-right: 0px;
 	margin-bottom: 0px;
 	margin-left: 0px;
+	font-weight: bold;
+	font-size: 3em;
 }
 .container header nav {
 	margin-top: 0px;
@@ -520,4 +545,7 @@ nav ul li {
 	margin-top: 0px;
 	padding-top: 0px;
 }
+}
+#map {
+	 height: 50%;
 }
